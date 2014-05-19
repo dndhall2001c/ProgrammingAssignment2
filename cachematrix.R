@@ -5,8 +5,7 @@
 ##
 ## makeCacheMatrix is used to make a special matrix that has the ability to cache the inverse of the matris
 ##
-## cacheSolve is used to either compute/cache/retrieve inversed matrix or just retrieve inversed matrix from cache
-##
+
 ## Usage
 ##
 ##crete a with makeCacheMatrix framework
@@ -15,10 +14,6 @@
 ## > a$set(1:4, 2)
 ##inspect Matrix
 ## > a$get()
-## run cachesolve(a) to see if the results are cached
-## > cachesolve(a)
-## Run again to see cached results
-## > cachesolve(a)
 
 makeCacheMatrix <- function(x = matrix()) {
      m <- NULL
@@ -36,6 +31,17 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+##
+## cacheSolve is used to either compute/cache/retrieve inversed matrix or just retrieve inversed matrix from cache
+##
+
+## Usage
+##
+## run cachesolve(a) to see if the results are cached
+## > cachesolve(a)
+## Run again to see cached results
+## > cachesolve(a)
+
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
