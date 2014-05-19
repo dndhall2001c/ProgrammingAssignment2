@@ -2,6 +2,13 @@
 ## functions do
 
 ## Write a short comment describing this function
+##
+## makeCacheMatrix is used to make a special matrix that has the ability to cache the inverse of the matris
+##
+## cacheSolve is used to either compute/cache/retrieve inversed matrix or just retrieve inversed matrix from cache
+##
+## Usage
+##
 ##crete a with makeCacheMatrix framework
 ## > a<- makeCacheMatrix()
 ##create Matrix
